@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url("../img/fondo.jpeg");
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    position: fixed;
+    z-index: 41;
+    background-image: url("../img/fondo.jpeg");
+}
+.container-contact {
+    font-size: 15px;
+    height: 40px;
+    padding-top: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.contact-info a {
+    line-height: 0;
+    color: #444;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.contact-info a:hover {
+    color: #ac5f3c;
+}
+
+.contact-info i {
+    color: #ffaa81;
+    line-height: 0;
+    margin-right: 10px;
+}
+
+.phone-icon:hover {
+    color: #ac5f3c;
+}
+
+.facebook i:hover,
+.instagram i:hover,
+.linkedin i:hover {
+    color: #ac5f3c;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 15px;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    margin: 0;
+    padding: 20px 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.titulo-galeria {
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    color: #ffaa81;
+}
+
+.carousel-indicators .active {
+    background-color: rgb(68, 64, 64);
+}
+.carousel-item img {
+    opacity: 60%;
+}
+
+.carousel-caption h2 {
+    color: rgb(68, 64, 64);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.carousel-caption p {
+    color: rgb(68, 64, 64);
+}
+
+.container-grid {
+    background-color: #fce8df;
+    border-radius: 0.5%;
+    max-width: 1000px;
+}
+
+.imagen1 img,
+.imagen2 img {
+    border-radius: 5%;
+}
+.imagen2 {
+    display: none;
+    transition: 0.5s;
+}
+
+.imagen-box:hover .imagen1 {
+    display: none;
+}
+
+.imagen-box:hover .imagen2 {
+    display: block;
+    opacity: 70%;
+}
+
+footer {
+    background-color: #ffaa81;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.pie {
+    color: #8a3b17;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.boton-contacto {
+    padding: 10px;
+    color: #8a3b17;
+    margin-top: 20px;
+    border-radius: 5%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.boton-contacto:hover {
+    color: #fce8df;
+    background-color: #df9775;
+}
+
+.derechos {
+    text-align: center;
+    background-color: #df9775;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
